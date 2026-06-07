@@ -214,7 +214,7 @@ elif page == "🌐 Global Adoption Trends":
     tf.title("🌐 Global Solar Adoption Trends")
     tf.markdown("Analyze global historical data demonstrating photovoltaic grid integration growth across major industrial nations.")
     
-    # Global dataset for visualization engine
+    # FIXED: Pura closed dataset array list bracket check
     global_data = {
         "Year": sorted(list(range(2018, 2026)) * 4),
         "Country": ["China", "United States", "Germany", "India"] * 8,
@@ -222,4 +222,3 @@ elif page == "🌐 Global Adoption Trends":
             175, 62, 45, 28,  # 2018
             205, 76, 49, 35,  # 2019
             253, 97, 54, 41,  # 2020
-            306, 123, 59, 49, # 2021
